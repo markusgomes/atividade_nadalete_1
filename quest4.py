@@ -10,12 +10,13 @@ for n in range(1, 21):
 
     if entrada == dig:
         cont += 1
-        if (cont + 1) >= seq and dig_m < dig:
+        if (cont + 1) >= seq:
             seq = cont + 1
             dig_m = dig
             
 
     else:
+        
         dig = entrada
         cont = 0
 
